@@ -1,4 +1,4 @@
-## Feature http-client documentation
+## Micronaut Demo
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+Skeleton project for the Micronaut demo.
 
