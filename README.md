@@ -1,4 +1,3 @@
-## Feature http-client documentation
+## Micronaut Demo
 
-- [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
+This is a demo project used by xalvarez and henrik432 to present micronaut.
