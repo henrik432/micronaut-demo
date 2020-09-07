@@ -13,15 +13,15 @@ open class GithubService(
 
     fun getName(): String {
         val authorization = "Bearer $githubToken"
-        val viewerResponse = githubClient.getViewer(buildQuery(), authorization)
+        val viewerResponse = githubClient.getViewer(VIEWER_QUERY, authorization)
         return viewerResponse.data.viewer.login
     }
-
-    private fun buildQuery() = """
-        {
-          viewer {
-            login
-          }
-        }
-    """.trimIndent()
 }
+
+private const val VIEWER_QUERY = """
+{
+  viewer {
+    login
+  }
+}
+"""
